@@ -3,3 +3,27 @@
     margin: 0;
     box-sizing: border-box;
  }
+/* INIZIO HEADER */
+ .container_header{
+    background-color: rgb(191, 247, 242);
+    padding: 20px;
+ }
+ .row_header{
+    width: 75%;
+    display: flex;
+    margin: 0 auto;
+    background-color: orange;
+    text-align: center;
+    justify-content: center;
+ }
+ .column_logo, .column_login{
+    width: 25%;
+    border-style: dashed;
+    padding: 10px;
+ }
+ .column_link{
+    width: 50%;
+    border-style: dashed;
+    padding: 10px;
+ }
+ /* FINE HEADER */
