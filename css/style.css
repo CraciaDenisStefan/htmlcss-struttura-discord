@@ -8,7 +8,7 @@
     width: 75%;
     display: flex;
     margin: 0 auto;
-   
+
  }
 /* INIZIO HEADER */
  .container_header{
@@ -28,3 +28,58 @@
     width: 50%;
  }
  /* FINE HEADER */
+ /* INIZIO  MAIN : INIZIO section 1   */
+ .container_section1{
+    background-color: rgb(3, 3, 185);
+    padding: 20px;
+ }
+ .row .column_section1{
+    background-color: rgb(236, 108, 204);
+    width: 50%;
+    height: 300px;
+    border-style: dashed;
+    margin: 0 auto;
+ }
+/* MAIN : FINE section 1  */
+/* MAIN : INIZIO section 2 e 4  */
+.container_section2{
+    padding: 20px;
+ }
+.row .column_section2.left{
+    background-color: rgb(49, 138, 255);
+    width: 60%;
+    height: 500px;
+    border-style: dashed; 
+}
+.row .column_section2.right{
+    width: 40%;
+    background-color:rgb(250, 179, 157);
+    height: 500px;
+    border-style: dashed;
+}
+/* MAIN : FINE section 2 e 4 */
+/* MAIN : INIZIO section 3  */
+.container_section3, .container_section5{
+    background-color: rgb(218, 213, 213);
+    padding: 20px;
+ }
+.row .column_section3.left{
+    background-color:rgb(250, 179, 157);
+    width: 40%;
+    height: 500px;
+    border-style: dashed; 
+}
+.row .column_section3.right{
+    width: 60%;
+    background-color: rgb(49, 138, 255);
+    height: 500px;
+    border-style: dashed;
+}
+/* MAIN : FINE section 3 */
+/* MAIN : INIZIO section 5 usando contenitore della sezione 3 */
+.row .column_section5{
+    background-color: rgb(0, 155, 13);
+    width: 100%;
+    height: 1000px;
+    border-style: dashed;
+/* FINE MAIN : FINE section 5 */
