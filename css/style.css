@@ -16,15 +16,20 @@
  }
  .column_header{
     background-color: rgb(255, 183, 49);
-    text-align: center;
     border-style: dashed;
     padding: 10px;
  }
- .column_header.logo, .login{
+ .column_header.logo{
     width: 25%;
+ }
+ .column_header.login{
+    width: 25%;
+    text-align: end;
  }
  .column_header.link{
     width: 50%;
+    text-align: center;
+   
  }
  /* FINE HEADER */
  /* INIZIO  MAIN : INIZIO section 1   */
@@ -108,7 +113,6 @@
 /* INIZIO FOOTER parte bassa ,i bottoni */
 .row.button{
     margin-top: 20px;
-    width: 100%;
     background-color: rgb(0, 255, 179);
     justify-content: space-between;
     align-items: center;
